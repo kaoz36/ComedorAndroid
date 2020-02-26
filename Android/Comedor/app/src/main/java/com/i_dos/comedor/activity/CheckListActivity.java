@@ -56,7 +56,7 @@ public class CheckListActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Check>> call, Throwable t) {
-                Log.e("FSALOOO", t.getMessage());
+                Log.e("ERROR", t.getMessage());
             }
         });
     }

@@ -72,7 +72,7 @@ public class EmployeeActivity extends Activity {
 
                 @Override
                 public void onFailure(Call<Employee> call, Throwable t) {
-                    Log.e("FSALOOO", t.getMessage());
+                    Log.e("ERROR", t.getMessage());
                 }
             });
         } catch (Exception e) {
